@@ -1,8 +1,13 @@
 import './App.css';
+import Header from './components/Header';
+import TinderCards from './components/TinderCards';
 
 function App() {
   return (
-    <h1>Tinder clone</h1>
+    <>
+    <Header/>
+    <TinderCards/>
+    </>
   );
 }
 
