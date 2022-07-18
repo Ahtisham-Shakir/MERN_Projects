@@ -20,10 +20,6 @@ function TinderCards() {
             name: "Elon Musk",
             url: "https://www.thenews.com.pk/assets/uploads/updates/2022-07-16/974158_6139396_Elon-Musk2_updates.jpg"
         },
-        {
-            name: "Quaid e Azam",
-            url: "https://nationaltoday.com/wp-content/uploads/2021/11/Quaid-e-azam-day.jpg"
-        },
 
     ]);
 
