@@ -1,9 +1,13 @@
 import './App.css';
+import Video from './components/Video';
 
 function App() {
   return (
-    <div className="App">
-      TIkTok Clone
+    <div className="app">
+      <div className='app__videos'>
+        <Video />
+        <Video />
+      </div>
     </div>
   );
 }
