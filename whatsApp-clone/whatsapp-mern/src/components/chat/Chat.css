@@ -1,0 +1,7 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex-direction: 0.65;
+  background-color: burlywood;
+  flex-grow: 1;
+}
