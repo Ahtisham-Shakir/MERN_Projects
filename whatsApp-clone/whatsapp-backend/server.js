@@ -40,6 +40,8 @@ db.once("open", () => {
       pusher.trigger("messages", "inserted", {
         name: msgDetails.name,
         message: msgDetails.message,
+        timestamp: msgDetails.timestamp,
+        receiver: msgDetails.receiver,
       });
     } else {
       console.log("Error triggering Pusher");
